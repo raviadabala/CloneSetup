@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f3f8319a-8de8-45f6-9a39-c6d48cd36d81" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://dbaservices.corp.realpage.com/RPLoginSvc.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RPLoginSvc.wsdl" MetadataType="Wsdl" ID="f01a5e46-c0a6-4853-bebe-9ea836aa97ea" SourceId="1" SourceUrl="http://dbaservices.corp.realpage.com/RPLoginSvc.svc?wsdl" />
+    <MetadataFile FileName="RPLoginSvc.xsd" MetadataType="Schema" ID="f723e2d8-1459-4b2d-9c03-55512896ad5a" SourceId="1" SourceUrl="http://dbaservices.corp.realpage.com/RPLoginSvc.svc?xsd=xsd3" />
+    <MetadataFile FileName="RPLoginSvc1.xsd" MetadataType="Schema" ID="a0b334f4-7561-4555-b1c2-d3527aee7726" SourceId="1" SourceUrl="http://dbaservices.corp.realpage.com/RPLoginSvc.svc?xsd=xsd1" />
+    <MetadataFile FileName="RPLoginSvc2.xsd" MetadataType="Schema" ID="59ff4ee1-b071-4dfa-af0e-f6103d9ca240" SourceId="1" SourceUrl="http://dbaservices.corp.realpage.com/RPLoginSvc.svc?xsd=xsd2" />
+    <MetadataFile FileName="RPLoginSvc3.xsd" MetadataType="Schema" ID="ffd535bb-7c78-41b4-ac9a-e80bdc402c66" SourceId="1" SourceUrl="http://dbaservices.corp.realpage.com/RPLoginSvc.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
